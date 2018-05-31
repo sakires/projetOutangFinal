@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>inscription</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/MaCompte.css">
+
+</head>
+<body>
+    <header>
+      <div id="cont_menus">
+
+      <div class="menu">
+        <a  href="../accueil.html" id="outlang">OutangLandParis</a>
+        <a href="../accueil.html">ACCUEIL</a>
+        <a href="nos_offres_ligne.html">NOS OFFRES EN LIGNE</a>
+        <a href="GBillets.html">BILLETERIE</a>
+        <div class="compte">
+          <a href="MaCompte.html" id="connection">Ma Compte</a>
+          <a href="inscrit.html" id="crer_compte">Créer mon compte</a>
+        </div>
+      </div>
+      </div>
+    </header>
+    <div id="conection">
+        <h1>ENGAGEZ-VOUS</h1>
+        <h2>Creez votre Compte</h2>
+        <label>Nom :</label>
+        <input type="text" value="LaDebrouille"><br>
+        <label>Prenom :</label>
+        <input type="text" value="Gerard"><br>
+        <label>Addresse :</label>
+        <input type="text" value="53 rue France"><br>
+        <label>Ville :</label>
+        <input type="text" value="Limoges"><br>
+        <label type="number">Code postal</label>
+        <input type="number" value="87000" min="0"><br>
+        <label type="email">Email :</label>
+        <input type="email" value="gerardLadebrouille@unilim.com"><br>
+        <label>Date De Naissance :</label>
+        <input type="date" name="Naissance" value="1975-06-12"><br>
+        <label>Mot de passe</label>
+        <input type="password" value="0000"><br>
+        <label>Confirmer votre mot de passe</label>
+        <input type="password" value="0000"><br>
+        <label>Nombre d enfant</label>
+        <list type=text>
+        <select>
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+        </select>
+        </list><br>
+         <label>Homme</label><input type="radio" name="genre" id="genreHomme">
+        <label>Femme</label><input type="radio" name="genre" id="genreFemme">
+        <label>autre</label><input type="radio" name="genre" id="genreAutre"><br>
+        <input id="checkBox" type="checkbox">
+        <p>Oui, je souhaite recevoir par e-mail les nouvautés et offres exclusives</p>
+        <button><a href="compteCreer.html">Je m'inscris!</a></button>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+#offres_ligne{
+padding: 20px;
+}
+p{
+  text-align: center;
+  font-size: 17px;
+}
+h1{
+  font-size: 25px;
+  text-align: center;
+  padding: 25px;
+}
+.cont{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin-right: 5px;
+}
+.cont h1{
+  font-size: 18px;
+
+}
+.titre{
+    background: turquoise;
+}
+.prix_cont{
+  justify-content:space-around;
+  display: flex;
+  margin: 10px 50px;
+}
+.prix h1{
+  font-size: 20px;
+  padding: 3px;
+
+}
+.prix p{
+  font-size: 18px;
+  padding: 3px;
+  font-weight: normal;
+}
+.reserve{margin: 10px;
+  padding:8px;
+  background: silver;}
+.det{padding: 10px;}
+.ofres_cont{display: flex;
+}

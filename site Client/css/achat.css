@@ -1,0 +1,78 @@
+
+/*
+div {
+ margin: 8% 0% 0% 35%;
+
+}
+
+#conection h1{
+    font-size: 25px;
+    margin-bottom: 2.5%;
+}
+#conection input{
+    margin-bottom: 2.5%;
+}
+
+#conection button{
+   display: block;
+    margin-bottom: 2.5%;
+    padding: 2px 2px 2px 2px;
+}
+
+#conection #inscrit{
+    padding-right: 30px;
+}
+
+
+#inscription h2{
+    margin-bottom:2%;
+}
+
+
+#billeterie button{
+
+    background-color: burlywood;
+    padding: 15% 10% 15% 10%;
+    border-radius: 15%;
+}
+#billeterie h1,h2{
+    font-size: 20px;
+    color: blue;
+    margin-left: 8%;
+}
+
+
+#achatBillet button{
+    margin-bottom: 5%;
+    display: block;
+}
+
+#achat button {
+    margin: 10%;
+    padding: 2.5% 4% 2.5% 4%;
+    background-color: burlywood;
+}
+#felicitaion{
+    margin: 5% 0% 0% 20%;
+}
+#felicitaion h1{
+    color: red;
+    font-size: 72px;
+}
+#felicitaion button{
+    margin: 10% 0% 0% 15%;
+    padding: 7% 5% 7% 5%;
+    background-color: orangered;
+}
+#compteCreer{
+    margin: 20% 0% 0% 30%;
+}
+#compteCreer p{
+    font-size: 30px;
+    color: red;
+}
+#compteCreer button{
+    margin: 5% 0% 0% 15%;
+    padding: 5% 10% 5% 10%;
+}
+/*

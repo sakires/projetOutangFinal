@@ -1,0 +1,14 @@
+#conection{
+  overflow: hidden;
+  position: absolute;
+  height: auto;
+  width: 300px;
+  left: 50%;
+  top: 40%;
+  margin-top: -100px;
+  margin-left: -150px;
+  line-height: 25px;
+  }
+button{
+  margin: 20px 0px;
+  padding: 6px;}

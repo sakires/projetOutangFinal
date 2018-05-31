@@ -1,0 +1,62 @@
+#GBillets{
+  padding: 20px;
+
+}
+h1,p{
+  padding: 12px;
+}
+.Passfaire{
+  padding: 10px;
+
+}
+h2{font-weight: bold;
+padding: 16px;}
+.butts_Pay{
+    display: flex;
+    justify-content: center;
+}
+.jours{display: flex;}
+.type_bill{
+display: flex;
+justify-content: space-around;
+padding: 0px 450px;
+}
+.adults,.enfants{
+  display: flex;
+
+}
+
+button{padding: 6px;
+margin: 10px;}
+
+table {
+   border: 1px solid #000;
+}
+th, td {
+   width: 100px;
+   padding: 15px 0px;
+   text-align: center;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+}
+th {
+   background: black;
+   color: white;
+}
+.text_cal{font-weight: bold;}
+.mois{
+  color: blue;
+  padding: 15px;
+  font-weight: bold;
+}
+.calendar{
+  display: flex;
+  justify-content: center;}
+  .radio,select,option{
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  label{
+ padding: 20px;
+font-weight: normal;}

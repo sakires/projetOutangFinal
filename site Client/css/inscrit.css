@@ -1,0 +1,14 @@
+#inscription{
+
+  position: absolute;
+  height: auto;
+  width: 800px;
+  left: 50%;
+  padding-top: 10%;
+  margin-top: -100px;
+  margin-left: -150px;
+  line-height: 30px;
+  }
+button{
+  margin: 20px 0px;
+  padding: 6px;}

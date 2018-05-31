@@ -1,0 +1,32 @@
+
+#cont_menus{
+	display: flex;
+	width: 100%;
+	background: black;
+
+}
+.menu{
+	list-style: none;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu  a{
+	font-weight: bold;
+	display: block;
+	padding: 48px;
+	color: #FDEDD8;
+	font-size: 14px;
+	align-self: center;
+}
+#outlang {
+	font-size: 26px;
+  color: #01579b;
+}
+.menu a:hover{
+	background: #FDEDD8;
+  color: #010A0F;
+  font-weight: bold;
+}
+.compte a {padding: 24px;}

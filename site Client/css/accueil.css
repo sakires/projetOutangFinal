@@ -1,0 +1,27 @@
+#accueil{
+	padding: 30px 60px;
+	display: flex;
+	justify-content: space-between;
+}
+.info :hover{
+	background: #dde4ec;
+}
+h1{text-align: center;
+	    font-size: 16px;
+padding: 10px;
+background: skyblue;
+}
+.Img_plan{
+	width: 650px;
+	height: 450px;
+		font-weight: normal;
+}
+.plan{
+	display: flex;
+	flex-direction: column;
+}
+.info {
+	    align-self: center;
+
+
+}
