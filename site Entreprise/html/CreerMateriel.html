@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Materiel</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="../css/reset.css">
+	<link rel="stylesheet" href="../css/CreerMateriel.css">
+</head>
+<body>
+    <header>
+				<a href="./GMateriel.html"><h1>Gestion/Gestion de Materiel</h1></a>
+    </header>
+    <section >
+		<div class="crt_mat">
+			<p>Gestion du Materiel/Ajout</p>
+			<div class="datec">
+				<label>Date de Creation :</label >
+				<input type="date" name="datec">
+			</div>
+
+			<label for="mat">Nom du Materiel :</label>
+					<input type="text" name="mat" value="Toboggan">
+					<br>
+			<label for="cat">Categorie :</label>
+				<select name="prod" id="prod">
+						<option value="Principal_sud">Principal sud</option>
+						<option value="Principal_nort">Principal nord</option>
+				</select>
+				<br>
+				<label for="code">Code du Materiel:</label>
+				<input type="text" name="quant" id="quant" value="TOB01" size="6px" color="blue"/>
+
+		</div>
+		<button type="button_nvll_ligne">Créer Materiel</button>
+		<div class="lignes_materiels">
+			<table>
+			   <tr>
+				   <th>N*</th>
+			       <th>Materiel</th>
+			       <th>Categorie</th>
+			       <th>CodeMateriel</th>
+			   </tr>
+
+			    <tr>
+				   <td>0001</td>
+			       <td>Toboggan</td>
+			       <td>Principal sud</td>
+			       <td>TOB01</td>
+
+			   </tr>
+				 <tr>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+				</tr>
+			</table>
+		</div>
+
+			<div class="butons_cmd">
+				<button type="button_effcr">Effacer Materiel</button>
+				<button type="button_pssr">Editer Materiel</button>
+
+			</div>
+    </section>
+</body>
+</html>

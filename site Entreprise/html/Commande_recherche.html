@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Commande</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="../css/reset.css">
+	<link rel="stylesheet" href="../css/Commande_recherche.css">
+</head>
+<body>
+    <header>
+		<a href="./GCommandes.html"><h1>Gestion des Commandes</h1></a>
+    </header>
+    <section >
+		<div class="cmd_fourn">
+			<p>Gestion des Commandes/Voir Commandes par Encadrement~Fournisseur</p>
+			<div class="cont_enc">
+				<div class="datec">
+					<label>Encadrement1 :</label >
+					<input type="date" name="enc1">
+				</div>
+				<div class="datec">
+					<label>Encadrement2 :</label >
+					<input type="date" name="enc2">
+				</div>
+			</div>
+			<label for="fourn">Nom du Fournisseur :</label>
+				<select name="nomf" id="nomf">
+						<option value="grains">Dugrain</option>
+						<option value="cereal">Mimascot</option>
+						<option value="cereal">Beneful</option>
+				</select>
+					<br>
+			<label for="prod">Nom du Produit :</label>
+				<select name="prod" id="prod">
+						<option value="grains">Grains</option>
+						<option value="cereal">Cereal</option>
+				</select>
+				<br>
+
+		</div>
+		<button type="button_rchrc">AFFICHER</button>
+		<div class="lignes_cmd">
+			<table>
+				 <tr>
+						<th>N* Commande</th>
+						 <th>Article</th>
+						 <th>Fournisseur</th>
+						 <th>Date Commande</th>
+						 <th>Date de Livraison</th>
+						 <th>Frais de traitement</th>
+						 <th>Quantité</th>
+						 <th>Unité de mesure</th>
+						 <th>Prix Unitaire(HT)</th>
+						 <th>TVA%</th>
+						 <th>Total TTC</th>
+				 </tr>
+
+					<tr>
+						<td>CMFD000001</td>
+						<td>DUGRAIN</td>
+						 <td>Grains</td>
+						 <td>26/05/2018</td>
+						<td>En attente</td>
+						<td>En attente</td>
+						 <td>100</td>
+						 <td>Kg</td>
+						 <td >10</td>
+						 <td>20</td>
+						 <td>1200</td>
+				 </tr>
+				 <tr>
+					 <td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+				</tr>
+			</table>
+		</div>
+
+    </section>
+</body>
+</html>

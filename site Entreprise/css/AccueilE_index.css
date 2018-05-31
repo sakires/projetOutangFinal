@@ -1,0 +1,21 @@
+
+  #conection{
+      margin: 10% 0% 0% 40%;
+  }
+
+  button{
+  padding: 10px;
+  margin: 15px 3px;
+  font-weight: bold;
+  }
+.cont{display: flex;
+padding-bottom: 10px;}
+  a{
+    text-decoration: none;}
+  h1{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  padding: 30px;
+
+}

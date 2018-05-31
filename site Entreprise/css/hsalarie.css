@@ -1,0 +1,13 @@
+header:hover {background: #009688;}
+header{
+  background-color:darkgray;
+}
+table{
+    margin: 5% auto 5% auto ;
+}
+button{
+    display: block;
+    width: 25%;
+    height: 50px;
+    margin: 0% auto 0% auto ;
+}

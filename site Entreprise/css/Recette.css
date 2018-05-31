@@ -1,0 +1,91 @@
+section{padding: 30px}
+h1{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+
+}
+p{
+  font-weight: bold;
+  font-size: 20px;
+
+}
+header:hover {background: #009688;}
+header{
+  background: #dbe0de;
+}
+a{text-decoration: none;
+color:black;}
+label{font-weight: bold;
+align-self: center;}
+h2{
+  font-weight: bold;
+  font-size: 20px;
+color: black;
+  padding: 10px;
+}
+
+button{
+padding: 10px;
+margin: 15px 3px;
+font-weight: bold;
+}
+table {
+   border: 1px solid #000;
+}
+th, td {
+   width: 200px;
+   padding: 6px;
+   text-align: center;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+}
+th {
+   background: black;
+   color: white;
+}
+.lignes_cmd{
+  display: flex;
+    justify-content: center;
+}
+
+.recetecreer{padding: 30px;}
+h1{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+}
+header:hover {background: #009688;}
+header{
+  background: #efcec5;
+}
+a{text-decoration: none;
+}
+p{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+button{
+padding: 10px;
+margin: 15px 3px;
+font-weight: bold;
+}
+.form_rec{
+  display: flex;
+  flex-direction: column;
+}
+.cont{
+  margin: 8px 60px;
+}
+
+.butons_creerrecet{
+  display: flex;
+  justify-content: center;
+}
+.actualiser{padding: 5px;}
+.cont_in{display: flex;
+}

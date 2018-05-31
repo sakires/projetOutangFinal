@@ -1,0 +1,42 @@
+section{padding: 30px;}
+h1{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+
+}
+header:hover {background: #009688;}
+header{
+  background: #dbe0de;
+}
+a{text-decoration: none;
+  color: black;
+}
+p{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+button{
+padding: 10px;
+margin: 15px 3px;
+font-weight: bold;
+}
+
+.form_sal{
+  display: flex;
+  flex-direction: column;
+}
+.sal_date{
+  margin-left: 80px;
+}
+.cont_inf{
+  display: flex;
+  margin-left: 40px;
+}
+.butons_creers{
+  display: flex;
+  justify-content: center;
+}
+input{margin-bottom: 10px;}

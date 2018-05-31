@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Stocks</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="../css/reset.css">
+	<link rel="stylesheet"  href="../css/GStocks.css">
+</head>
+<body>
+	<header>
+			<a href="../index.html"><h1>Retour</h1></a>
+	</header>
+    <section >
+        <div id="rechercheStock">
+            <label>Code produit :</label>
+            <input type="text" value="AX03">
+            <label>Nom du produit :</label>
+            <input type="text" value="Grain">
+            <label>Fournisseur :</label>        
+            <select name="nomf" id="nomf">
+				<option value="grains">Dugrain</option>
+				<option value="cereal">Mimascot</option>
+                <option value="cereal">Beneful</option>
+            </select>
+            <button><a>Rechercher</a></button>
+            <p>Commentaire : Appuyer sur le bouton "rechercher" met à jour le tableau ci-dessous</p>
+        </div>
+        <table>
+            <tr class="th">
+                <td><p>Code produit</p></td>
+                <td><p>Nom du produit</p></td>
+                <td><p>Fournisseur</p></td>
+                <td><p>Quantité</p></td>
+                <td><p>Diminuer</p></td>
+                <td><p>commander</p></td>
+            </tr>
+            <tr>
+                <td><p>AX03</p></td>
+                <td><p>grain</p></td>
+                <td><p>DuGrain</p></td>
+                <td><p>20 kg</p></td>
+                <td><input type="number" value="0" min="0"><button><p>valider</p></button></td>
+                <td><button><a href="Commande_direct.html">Commander</a></button></td>
+            </tr>
+        </table>
+        <label>Commentaire : La diminution du stock et sont augmentation sont gérés de maniere automatique</label>
+    </section>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Restauration</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="../css/reset.css">
+	<link rel="stylesheet"  href="../css/Recette.css">
+</head>
+<body>
+	<header>
+		<a href="./ConnectionEmployerResto.html"><h1>Role:Employé Restauration/DUPAULT Ana</h1></a>
+	</header>
+    <section >
+<div class="cmd_fourn">
+	<p>Gestion/Côntrole de Recete</p>
+</div>
+<section class="recetecreer">
+	<p>Creer une Recette/Mettre à Jour</p>
+	<div class="form_rec">
+		<div class="cont">
+			<label for="nom">Recette :</label>
+			<input type="text" name="nom" id="nom" value="Sauté de veau aux olives"/>
+		</div>
+		<div class="cont">
+			<div class="subcont">
+				<label for="nom">Ingredients:</label>
+				<select name="nomf" id="nomf">
+						<option value="Olive">Olive</option>
+						<option value="Bourgoñe">Bourgoñe</option>
+						<option value="Sauté de veau">Sauté de veau</option>
+				</select>
+				<button type="button" ><a href="#">Ajouter a liste des ingredients</a></button>
+			</div>
+
+		</div>
+	</div>
+	<div class="cont">
+		<label for="nom">Description</label>
+		<textarea name="name" rows="3" cols="30">Commentaires......"</textarea>
+	</div>
+	<div class="cont">
+		<label for="nom">Unité du nombre des portions</label>
+		<input type="text" name="nom" id="nom" value="29" size="4"/>
+	</div>
+	<div class="cont">
+		<label for="nom">Prix de vente: </label>
+		<input type="text" name="nom" id="nom" value="14,25 €"size="4"/>
+	</div>
+<div class="butons_creerrecet">
+<button type="button" ><a href="#">ANNULER</a></button>
+<button type="button" ><a href="#">ENREGISTRER</a></button>
+</div>
+
+	<div class="cont_in">
+		<label for="">Recette : </label>
+		<input type="text" name="" value="Sauté de veau aux olives">
+<button class="actualiser"type="button" ><a href="#">METTRE À JOUR</a></button>
+</div>
+
+</section>
+<h2>Information de Sauté de veau aux olives:</h2>
+<div class="lignes_cmd">
+	<table>
+		 <tr>
+				 <th>Ingrédient</th>
+				 <th>Prix Unitaire</th>
+				 <th>Quantité</th>
+				 <th>Unité de mesure</th>
+				 <th>Prix*Quantité</th>
+		 </tr>
+
+			<tr>
+				<td>Sauté de veau</td>
+				<td>5,25 €</td>
+				<td>5 </td>
+				<td>kg </td>
+				<td>25,23 </td>
+		 </tr>
+		 <tr>
+			 <td>Bourgogne</td>
+			 <td>6,25 €</td>
+			 <td>5</td>
+			 <td>kg </td>
+			 <td>25,5 </td>
+		</tr>
+		<tr>
+			<td>Olives</td>
+			<td>6,25 €</td>
+			<td>4</td>
+			<td>kg </td>
+			<td>31,4 </td>
+	 </tr>
+	</table>
+</div>
+    </section>
+</body>
+</html>

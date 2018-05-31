@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Commande</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="../css/reset.css">
+	<link rel="stylesheet" href="../css/Commande_direct.css">
+</head>
+<body>
+    <header>
+		<a href="./GFournisseurs.html"><h1>"Gestion/Gestion Fournisseur"</h1></a>
+    </header>
+    <section >
+		<div class="cmd_fourn">
+			<p>Ajouter Nouvelle commande</p>
+			<h3>Commande N* CMFD000001 </h3>
+			<div class="datec">
+				<label>Date de Commande :</label >
+				<input type="date" name="Naissance">
+			</div>
+
+			<h2>--FOURNISSEUR DUGRAIN--</h2>
+			<label for="prod">Nom du Produit :</label>
+				<select name="prod" id="prod">
+						<option value="grains">Grains</option>
+						<option value="cereal">Cereal</option>
+				</select>
+				<br>
+				<label for="quant">Quantité :</label>
+				<input type="text" name="quant" id="quant" value="1"/>
+
+		</div>
+		<button type="button_nvll_ligne">Créer une nouvelle ligne de commande</button>
+		<div class="lignes_cmd">
+			<table>
+			   <tr>
+			       <th>Article</th>
+			       <th>Quantité</th>
+			       <th>Unité de mesure</th>
+				   <th>Prix Unitaire</th>
+			       <th>Montant</th>
+			   </tr>
+
+			    <tr>
+			       <td>Grains</td>
+			       <td>15</td>
+			       <td>Kg</td>
+				   <td>12,31</td>
+			       <td>184,65</td>
+			   </tr>
+				 <tr>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+						<td>-</td>
+				</tr>
+			</table>
+		</div>
+
+			<div class="butons_cmd">
+				<button type="button_effcr">Effacer ligne de commande</button>
+				<button type="button_pssr">Passer Commande</button>
+				<button type="button_anlr">Annuler Commande</button>
+
+			</div>
+    </section>
+</body>
+</html>

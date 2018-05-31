@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Salarie</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"  href="../css/reset.css">
+	<link rel="stylesheet"  href="../css/pourEmploye.css">
+</head>
+<body>
+	<header>
+			<a href="../index.html"><h1>Retour</h1></a>
+	</header>
+    <section >
+        <h1>Liste d'absence</h1>
+        <table id="abs">
+            <tr class="th">
+                <td><p>Date</p></td>
+                <td><p>Justifier</p></td>
+            </tr>
+            <tr>
+                <td><p>09/05/2018</p></td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+        </table>
+        <h1>Emploi du temps</h1>
+        <table id="edt">
+            <tr class="th">
+                <td></td>
+                <td><p>Lundi</p></td>
+                <td><p>Mardi</p></td>
+                <td><p>Mercredi</p></td>
+                <td><p>Jeudi</p></td>
+                <td><p>Vendredi</p></td>
+                <td><p>Samedi</p></td>
+            </tr>
+            <tr>
+                <td class="th"><p>Matin</p></td>
+                <td><p>8h-12h</p></td>
+                <td><p>10h-13h</p></td>
+                <td><p>8h-11h</p></td>
+                <td><p>8h-12h</p></td>
+                <td><p>8h-12h</p></td>
+                <td><p>3h-13h</p></td>
+            </tr>
+            <tr>
+                <td class="th"><p>Apres-Midi</p></td>
+                <td><p>14-20h</p></td>
+                <td></td>
+                <td><p>14h-16h</p></td>
+                <td></td>
+                <td><p>14h-20h</p></td>
+                <td></td>
+            </tr>
+        </table>
+        <div id="absPrevu">
+            <h1>Absence Prevue</h1>
+            <input type="date" id="inputDate">
+            <label>Raison</label>
+            <input type="text">
+            <label>Justificatif</label>
+            <input type="file">
+            <button>Valider</button>
+        </div>
+        <a id="Pointer" href="./pointageFait.html">Pointer</a>
+    </section>
+</body>
+</html>

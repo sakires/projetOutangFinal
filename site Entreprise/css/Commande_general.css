@@ -1,0 +1,60 @@
+section{padding: 30px}
+h1{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+
+}
+header:hover {background: #009688;}
+header{
+  background: #dbe0de;
+}
+a{text-decoration: none;
+color: black;}
+h2{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+h3{
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  padding-bottom: 12px;
+}
+.datec{text-align: right;}
+p{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+button{
+padding: 10px;
+margin: 15px 3px;
+font-weight: bold;
+}
+table {
+   border: 1px solid #000;
+}
+th, td {
+   width: 200px;
+   padding: 6px;
+   text-align: center;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+}
+th {
+   background: black;
+   color: white;
+}
+.lignes_cmd{
+  display: flex;
+    justify-content: center;
+}
+select{
+  margin-bottom: 5px;
+}
